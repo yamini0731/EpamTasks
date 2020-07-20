@@ -1,0 +1,252 @@
+
+  
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register Here</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="registercss.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <a class="navbar-brand  " href="#""><img src=" https://sitecorecdn.azureedge.net/-/media/sitecoresite/images/home/knowledge-center/working-with-a-partner/partner-finder/e/epam_desktop_240x140.jpg?mw=800&hash=E41845301D95518A95333875D0ECC528"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link " href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="#">WHAT WE DO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="#">HOE WE DO IT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">ABOUT </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">CAREERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-5 ">
+
+      </ul>
+      <form class="form-2">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <h1>Don't See Your Dream Job?</h1>
+  <h5>Give us a chance to find something for you.</h5>
+
+
+  <div class="container">
+    <form class=" text-center border border-light p-5" id="demoForm" method="post" onsubmit="return FormValidation()">
+      <div class="full">
+        <div class="row">
+
+          <div class="col-lg-6 namefl">
+            <div class="h4 mb-4"><label for="validationCustom01">First name*</label>
+              <input type="text" class="form-control" name="firstName" placeholder="First name">
+            </div>
+          </div>
+
+          <div class="col-lg-6 namefl full">
+            <div class="h4 mb-4"><label for="validationCustom02">Last name*</label>
+              <input type="text" class="form-control" name="lastName" placeholder="Last name"></div>
+          </div>
+
+          <div class="col-lg-6 full">
+            <div class="h4 mb-4 email1"><label for="validationCustom03">Email*</label>
+              <input type="text" class="form-control" name="email" placeholder="Email"></div>
+
+          </div>
+
+          <div class="col-lg-6 full">
+            <div class="h4 mb-4 phno" <label for="validationCustom04">Phone*</label>
+              <input type="number" class="form-control" name="phone"></div>
+          </div>
+
+          <div class="col-lg-12 full">
+            <p class="h4 mb-4">Gender</p>
+            <select class="form-control" id="defaultRegisterGender">
+              <option>Choose</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Other</option>>
+            </select>
+          </div>
+
+          <div class="col-lg-6 full">
+            <p class="h4 mb-4 loc">Location*</p>
+            <select class="form-control" name="location">
+              <option>Choose</option>
+              <option>India</option>
+              <option>Canada</option>
+              <option>Iceland</option>
+              <option>Ireland</option>
+              <option>Indonesia</option>
+              <option>Italy</option>
+              <option>Japan</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="col-lg-6 full">
+            <p class="h4 mb-4">City</p>
+            <select class="form-control">
+              <option>Choose</option>
+              <option>Banglore</option>
+              <option>Chennai</option>
+              <option>Delhi</option>
+              <option>Hyderabad</option>
+              <option>Mumbai</option>
+              <option>Pune</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="custom-file full">
+            <input type="file" class="custom-file-input" id="validatedCustomFile">
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+
+          <div class="form-group end full">
+            <div class="form-check pl-0 ">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+
+          <input type="submit" value="Submit" id="sub">
+        </div>
+    </form>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function(e) {
+      FormValidation.formValidation(
+          document.getElementById('demoForm'),
+          {
+              fields: {
+                  firstName: {
+                      validators: {
+                          notEmpty: {
+                              message: 'The first name is required'
+                          },
+                          regexp: {
+                              regexp: /^[a-zA-Zs]+$/,
+                              message: 'The first name can only consist of alphabetical and space'
+                          }
+                      }
+                  },
+                  lastName: {
+                      validators: {
+                          notEmpty: {
+                              message: 'The last name is required'
+                          },
+                          regexp: {
+                              regexp: /^[a-zA-Zs]+$/,
+                              message: 'The last name can only consist of alphabetical and space'
+                          }
+                      }
+                  },
+                  email:{
+                    validators:{
+                      notEmpty:{
+                        message:'The Email is requtired'
+                      },
+                      regexp:{
+                        regexp:/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                        message:'Please enter in email format'
+                      }
+                    }
+                  },
+                  phone:{
+                    validators:{
+                      regexp:{
+                      regexp: /^(0/91)?[7-9][0-9]{9}+$/,
+                      message:'Enter correct Phone number'
+                      }
+                      }
+                    },
+                    location: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Your Location is required'
+                            }
+                        }
+                    },
+              },
+              plugins: {
+                  trigger: new FormValidation.plugins.Trigger(),
+                  bootstrap: new FormValidation.plugins.Bootstrap({
+                      rowSelector: function(field, ele) {
+                          // field is the field name
+                          // ele is the field element
+                          switch (field) {
+                              case 'firstName':
+                              case 'lastName':
+                                  return '.namefl';
+
+                              case 'email':
+                                 return '.email1';
+
+                              case 'phone':
+                              return '.phno';
+
+                              case 'location':
+                                  return '.loc';
+
+                              default:
+                                  return '.full';
+                          }
+                      }
+                  }),
+                  submitButton: new FormValidation.plugins.SubmitButton(),
+                  icon: new FormValidation.plugins.Icon({
+                      valid: 'fa fa-check',
+                      invalid: 'fa fa-times',
+                      validating: 'fa fa-refresh'
+                  }),
+              },
+          }
+      );
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-shim.min.js"></script>
+<script src="/vendors/formvalidation/dist/js/FormValidation.min.js"></script>
+<script src="/vendors/formvalidation/dist/js/plugins/Bootstrap.min.js"></script>
+</body>
+</html>
